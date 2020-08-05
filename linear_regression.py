@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-Read_value = pd.read_csv('./lib/train.csv')
+Read_value = pd.read_csv('./lib/train.csv') # 불러올 변량 파일이 들은 위치로 설정.
 x_regressor = Read_value['x']
 y_response = Read_value['y']
 
